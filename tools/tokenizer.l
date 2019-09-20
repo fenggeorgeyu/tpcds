@@ -47,7 +47,11 @@
 #else
 #include <strings.h>
 #endif
+/*#include <malloc.h>*/
+/* fyu revise for MAC 20190920 */
+#ifndef USE_STDLIB_H
 #include <malloc.h>
+#endif
 #include "keywords.h"
 #include "StringBuffer.h"
 #include "expr.h"

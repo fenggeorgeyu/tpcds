@@ -41,8 +41,12 @@
 #include <search.h>
 #include <limits.h>
 #endif
-#include "config.h"
-#include "porting.h"
+#ifdef MAC
+#include <search.h>
+#include <limits.h>
+#endif
+// #include "config.h"
+// #include "porting.h"
 #include "decimal.h"
 #include "date.h"
 #include "genrand.h"

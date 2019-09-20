@@ -38,7 +38,8 @@
 #include <stdio.h>
 #include <fcntl.h>
 #include <assert.h>
-#include <malloc.h>
+// fyu should not re-include since LINE:56 already has one
+// #include <malloc.h> 
 #ifdef WIN32
 #include <io.h>
 #include <stdlib.h>

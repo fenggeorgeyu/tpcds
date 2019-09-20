@@ -109,6 +109,20 @@
 #define FLEX
 #endif /* LINUX */
 
+
+//fyu add MAC
+#ifdef MAC
+#define SUPPORT_64BITS
+#define HUGE_TYPE	int64_t
+#define HUGE_FORMAT	"%lld"
+#define HUGE_COUNT	1
+#define USE_STRING_H
+#define USE_LIMITS_H
+#define USE_STDLIB_H
+#define _POSIX_SOURCE //used in misc.c
+#define FLEX
+#endif /* MAC */
+
 #ifdef SOLARIS
 #define SUPPORT_64BITS
 #define HUGE_TYPE	long long 

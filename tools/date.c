@@ -35,13 +35,13 @@
  */ 
 
 /*** includes ***/
+#include "config.h" # config should be moved here fyu 20190920
 #include <stdlib.h>
 #ifndef USE_STDLIB_H
 #include <malloc.h>
 #endif
 #include <stdio.h>
 #include <math.h>
-#include "config.h"
 #include "porting.h"
 #include "date.h"
 #include "mathops.h"
