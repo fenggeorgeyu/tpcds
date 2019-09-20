@@ -1,3 +1,12 @@
+
+Editor: Feng "George" Yu <fyu@ysu.edu>
+Timestamp: <Fri Sep 20 2019 09:45:44 AM -04:00>
+
+Add compile support for Mac OSX, check changing in `config.h`.
+
+Make sure `bison` and `flex` are installed.
+
+----------------------------------------
 Author: Haider Rizvi
 File-started: <Wed Jun 23 09:04:52 EDT 2004>
 Time-stamp: <Fri Oct 29 15:31:46 EDT 2004>
